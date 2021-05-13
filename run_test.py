@@ -11,7 +11,7 @@ suite.addTests(cases)
 #获得当前时间
 currentTime=time.strftime('%Y_%m_%d %H-%M-%S')
 #设置测试报告的路径和文件名
-filename=r'report/resule_'+currentTime+'.html'
+filename=r'report/resule_'+'.html'
 #利用套件执行生成测试报告
 with open(filename,'wb+') as fp:
     runner=HT.HTMLTestRunner(stream=fp,title="学生管理系统测试用例",description="balabala",tester='xj')
